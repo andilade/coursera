@@ -1,0 +1,121 @@
+/*p
+{
+	border: 3px black solid;
+}*/
+.section1
+{	
+	background-color: rgb(118,122,121);
+	display: inline-block;
+	border: 3px black solid;
+	flex-direction: column;
+	margin: 3%;
+	width: 25%;
+	height: auto;
+}
+.section2
+{	
+	background-color: rgb(118,122,121);
+	display: inline-block;
+	border: 3px black solid;
+	flex-direction: column;
+	margin: 3%;
+	width: 25%;
+	height: auto;	
+}
+.section3
+{	background-color: rgb(118,122,121);
+	display: inline-block;
+	border: 3px black solid;
+	flex-direction: column;
+	margin: 3%;
+	width: 25%;
+	height: auto;
+}
+.menu1
+{
+	border: 1px solid black;
+	float: right;
+	margin-top: -01px;
+	background-color: yellow;
+}
+.menu2
+{
+	border: 1px solid black;
+	float: right;
+	margin-top: -01px;
+	background-color: red;
+}
+.menu3
+{
+	border: 1px solid black;
+	float: right;
+	margin-top: -01px;
+	background-color: green;
+}
+
+h1
+{
+	text-align: center;
+}
+
+ @media screen and (min-width: 768px) and (max-width: 992px) /*la vue tablette*/ {
+ 	.section1 {
+    background-color: rgb(118,122,121);
+    padding: 10px;
+    box-sizing: border-box;
+    width: 40%;
+    margin: 3%;
+	border: 3px solid black;
+}
+
+	.section2 {
+		float: right;
+	    background-color:rgb(118,122,121);
+	    padding: 10px;
+	    box-sizing: border-box;
+	    width: 40%;
+	    margin: 3%;
+		border: 3px solid black;
+	}
+
+	.section3 {
+		clear: both;
+	    background-color: rgb(118,122,121);
+	    padding: 10px;
+	    box-sizing: border-box;
+	    width: 99.5%;
+	    margin: 2%;
+		border: 3px solid black;
+
+	}
+ }
+
+@media screen and (max-width: 767px) /*la vue mobile*/ {
+    
+ 	.section1 {
+    background-color: rgb(118,122,121);
+    padding: 10px;
+    box-sizing: border-box;
+    width: 90%;
+    margin: 25px;
+	border: 3px solid black;
+}
+
+	.section2 {
+    background-color: rgb(118,122,121);
+    padding: 10px;
+    box-sizing: border-box;
+    width: 90%;
+    margin: 25px;
+	border: 3px solid black;
+}
+
+	.section3 {
+    background-color: rgb(118,122,121);
+    padding: 10px;
+    box-sizing: border-box;
+    width: 90%;
+    margin: 25px;
+	border: 3px solid black;
+}
+     }
